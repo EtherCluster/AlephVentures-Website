@@ -442,11 +442,11 @@ b, strong {
   transition: all 0.4s ease;
 }
 .contact-form .submit-btn:hover {
-  background: #474559;
+  background: rgb(108,16,63);
 }
 
 .contact-info {
-  background: #474559;
+  background: rgb(108,16,63);
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
