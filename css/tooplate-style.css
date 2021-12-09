@@ -289,6 +289,14 @@ b, strong {
   color: #ffffff;
 }
 
+#nameofmode{
+
+  font-family: 'unicons';
+ initial-value: "Light Mode";
+  font-size: 30px;
+  color: #ffffff;
+}
+
 .dark-mode {
   background: #0c0c0d;
 }
