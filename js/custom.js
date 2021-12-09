@@ -5,9 +5,14 @@
     // COLOR MODE
     $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
+        $('.color-mode-text').toggleClass('active')
         $('body').toggleClass('dark-mode')
         
     })
+
+
+     
+
 
     // HEADER
     $(".navbar").headroom();

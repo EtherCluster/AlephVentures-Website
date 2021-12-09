@@ -271,6 +271,8 @@ b, strong {
   cursor: pointer;
 }
 
+/* icon */
+
 .color-mode-icon {
   position: relative;
   right: 6px;
@@ -278,24 +280,40 @@ b, strong {
 .color-mode-icon:after {
   font-family: 'unicons';
   content: '\ea9f';
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
   font-family: 'unicons';
   content: '\eb65';
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
 }
 
-#nameofmode{
-
-  font-family: 'unicons';
- initial-value: "Light Mode";
-  font-size: 30px;
-  color: #ffffff;
+/* Text */
+.color-mode-text {
+  position: relative;
+  right: 6px;
+  font-style: normal;
+  
 }
+.color-mode-text:after {
+ 
+  content: 'Dark Mode';
+  font-size: 15px;
+  color: #444444;
+  font-style: normal;
+  font-weight: 600;
+}
+.color-mode-text.active:after {
+  
+  content: 'Light Mode';
+  font-size: 15px;
+  color: #cccccc;
+  font-weight: 600;
+}
+
 
 .dark-mode {
   background: #0c0c0d;
