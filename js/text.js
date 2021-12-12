@@ -16,3 +16,8 @@ function openGallery(id) {
       cardActv.classList.remove("Card--active");
     }
   }
+
+
+  $(window).load(function(){
+    $('#exampleModal').modal('show');
+});
