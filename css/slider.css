@@ -358,8 +358,8 @@ body {
     opacity: 0.8;
   }
   .Gallery-images {
-    display: flex;
-    width: 47rem;
+    /* display: flex; */
+    width: 32rem;
     margin: 0 auto;
     justify-content: space-between;
     margin-bottom: 1rem;
