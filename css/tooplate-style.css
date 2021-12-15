@@ -404,7 +404,7 @@ iframe {
   padding: 0;
   display: block;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(0, -50%);
   font-family: 'unicons';
   font-size: 50px;
