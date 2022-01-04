@@ -327,17 +327,30 @@ b, strong {
 
 .dark-mode {
 	background: $dark-mode-color;
-	.navbar-light .navbar-nav .nav-link {
+	.navbar-light .navbar-nav .nav-link .nav-item .navbar-collapse{
 		color: rgba(255,255,255,0.8);
 		&:hover {
 			color: $main-color;
 		}
 	}
-	.navbar {
+	.navbar .navbar-nav .nav-item{
 		&[class*="headroom--not-top"] {
 			background: $dark-mode-color;
-			border-bottom: 1px solid #1f1f1f;
+			border-bottom: 1px solid #1f1f1f!important;
 	    }
+		.navbar-collapse{
+
+		
+				background: $dark-mode-color;
+				border-bottom: 1px solid #1f1f1f!important;
+			
+
+		}
+		#navbarNav{
+
+			background: $dark-mode-color;
+			border-bottom: 1px solid #1f1f1f;
+		}
 	}
 	.small-text {
 		background: #0d0c15;
