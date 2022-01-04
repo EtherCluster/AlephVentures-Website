@@ -506,7 +506,7 @@ iframe {
   }
 
   .color-mode {
-    display: none;
+    /* display: none; */
   }
 
   .about-image {
@@ -522,7 +522,7 @@ iframe {
     padding: 0 2rem;
   }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   h1 {
     font-size: 2.4em;
   }
@@ -544,8 +544,8 @@ iframe {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
-}
-@media (max-width: 580px) {
+} */
+@media (max-width: 767px) {
 	.animated-info {
 		min-width: 200px;
 	}
