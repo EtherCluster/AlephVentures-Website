@@ -303,7 +303,7 @@ iframe {
 }
 .color-mode-text:after {
  
-  content: 'Dark Mode';
+  content: '';
   font-size: 15px;
   color: #444444;
   font-style: normal;
@@ -311,7 +311,7 @@ iframe {
 }
 .color-mode-text.active:after {
   
-  content: 'Light Mode';
+  content: '';
   font-size: 15px;
   color: #cccccc;
   font-weight: 600;
