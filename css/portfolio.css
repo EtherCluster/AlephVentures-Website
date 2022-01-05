@@ -42,6 +42,20 @@
   width: 32.5%;
 }
 
+
+.bigbanner{
+  display: flex;
+  flex-direction: row;
+  width: 100%; 
+  
+  
+  border: solid; border: 10px;
+  border: aquamarine;
+ 
+ 
+  background-image: url(../images/banner.png);
+}
+
 .container .box .dream img {
   width: 100%;
   padding-bottom: 15px;
